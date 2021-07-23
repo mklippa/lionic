@@ -13,7 +13,7 @@ ul {
 }
 
 img {
-  min-width: 100%;
+  max-width: 100%;
 }
 
 html {
@@ -115,4 +115,35 @@ html {
 
 .section-do-item:not(:last-child) {
   margin-right: 30px;
+}
+
+/* Clients */
+.section-clients {
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+
+.section-clients-list {
+  display: flex;
+}
+
+.section-clients-item {
+  flex: 1 1 33.33%;
+}
+
+.section-clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section-clients-user {
+  display: flex;
+  align-items: center;
+}
+
+.section-clients-avatar {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  border: 2px solid #3172B9;
+  border-radius: 50%;
 }
