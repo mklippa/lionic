@@ -72,10 +72,6 @@ html {
   cursor: pointer;
 }
 
-.btn.btn-big {
-  padding: 20px 60px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -141,16 +137,16 @@ html {
   background-size: contain;
 }
 
-.hero-container {
+.section-hero__container {
   padding-top: 120px;
   padding-bottom: 130px;
 }
 
-.hero-content {
+.section-hero__content {
   max-width: 50%;
 }
 
-.section-hero-heading {
+.section-hero__heading {
   margin-top: 0;
   margin-bottom: 34px;
   font-size: 40px;
@@ -159,18 +155,26 @@ html {
   color: #1c1c1c;
 }
 
-.section-hero-description {
+.section-hero__description {
   margin-bottom: 33px;
   font-size: 16px;
   line-height: 24px;
   color: #787878;
 }
 
-.section-hero-action {
+.section-hero__description_alert {
+  color: red;
+}
+
+.section-hero__action {
   display: inline-block;
 }
 
-.section-hero-btn-description {
+.section-hero__btn {
+  padding: 20px 60px;
+}
+
+.section-hero__btn-description {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -182,7 +186,7 @@ html {
   color: #787878;
 }
 
-.section-hero-ssl-icon {
+.section-hero__ssl-icon {
   display: inline-block;
   width: 13px;
   height: 17px;
